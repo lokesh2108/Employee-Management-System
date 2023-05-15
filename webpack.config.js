@@ -4,7 +4,7 @@ import webpack from 'webpack'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const isProduction = 'production'
+const isProd = 'production'
 
 const config = {
     entry: {
@@ -33,7 +33,7 @@ const config = {
 }
 
 export default function() {
-    if(isProduction) {
+    if(isProd) {
         config.mode = 'production'
     } else {
         config.mode = 'development'

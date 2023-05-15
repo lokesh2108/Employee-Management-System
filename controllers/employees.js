@@ -10,7 +10,7 @@ const getAllEmployees = async (req, res) => {
   }
 };
 const getEmployee = (req, res) => {
-  res.send("Get a  employee");
+  res.send("Get a employee");
 };
 const createEmployee = async (req, res) => {
   try {
@@ -22,7 +22,7 @@ const createEmployee = async (req, res) => {
   }
 };
 const updateEmployee = (req, res) => {
-  res.send("Update an  employee");
+  res.send("Update an employee");
 };
 const deleteEmployee = async (req, res) => {
   try {
